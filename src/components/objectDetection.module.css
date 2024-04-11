@@ -1,0 +1,38 @@
+.obj {
+  color: white;
+  margin-top: 2rem;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.webcam {
+  border-radius: 10px;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .webcam {
+    height: 720px;
+  }
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .canvas {
+    height: 720px;
+  }
+}

@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+}
+
+.heading h1 {
+  color: white;
+  letter-spacing: -0.1em;
+  font-size: 40px;
+}
